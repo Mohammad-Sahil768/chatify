@@ -11,7 +11,7 @@ function Navigationbar() {
     };
   
     const inactiveLink = {
-      color: "3A73EC" ,
+      color: "49EA46" ,
       fontSize: "1.2rem",
     };
 

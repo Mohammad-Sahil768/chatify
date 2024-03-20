@@ -1,6 +1,8 @@
 const exp = require("express")
 //const dotenv = require('dotenv').config()
 const app = exp();
+const cors = require('cors');
+app.use(cors());
 
 const { MongoClient } = require('mongodb')
 

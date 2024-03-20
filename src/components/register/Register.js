@@ -88,7 +88,7 @@ function Register() {
           <form onSubmit={handleSubmit(addNewUser)}>
             {/* username */}
             <div className="mb-3">
-              <label htmlFor="name">Userame</label>
+              <label htmlFor="name">Username</label>
               <input
                 type="text"
                 id="username"
